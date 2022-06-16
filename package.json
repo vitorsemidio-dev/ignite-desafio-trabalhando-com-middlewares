@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "nodemon",
-    "test": "jest --watch --detectOpenHandles"
+    "test": "jest",
+    "test:watch": "jest --watch --detectOpenHandles"
   },
   "dependencies": {
     "cors": "^2.8.5",
